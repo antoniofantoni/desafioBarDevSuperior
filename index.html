@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css">
+        <title>DESAFIO BAR</title>
+    </head>
+    <body>
+        <h2>Sistema - Controle de Consumo no Bar</h2>
+
+        <p>Qual o SEXO do cliente(M/F)? <input type="text" id="sexoDoCliente" /></p>
+
+        <p>Quantidade de CERVEJAS consumidas? <input type="number" id="qtdeDeCervejas"/></p>
+
+        <p>Quantidade de REFRIGERANTES consumidos? <input type="number" id="qtdeDeRefrigerantes"></p>
+
+        <p>Quantidade de ESPETINHOS consumidos? <input type="number" id="qtdeDeEspetinhos" /></p>
+
+        
+    <button onclick="calculaConsumoNoBar()" class="button">Click aqui <br> para calcular a <br>conta do cliente</button>
+<br>
+<br>
+        <div><a id="sexo"></a></div>
+        <div><a id="cerveja"></a></div>
+        <div><a id="refri"></a></div>
+        <div><a id="espetos"></a></div>
+       
+        <br>
+        <a id="relatorio"></a>
+        <br>
+        <div><a id="consumo"></a></div>
+        <div><a id="couvert"></a></div>
+        <div><a id="ingresso"></a></div>
+
+        <div><p id="conta"></p></div>
+
+        
+
+        <script src="bar.js"></script>
+    </body>
+</html>

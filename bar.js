@@ -29,7 +29,7 @@ function calculaConsumoNoBar(){
     document.getElementById("relatorio").innerHTML =  "RELATÓRIO:"
     document.getElementById("consumo").innerHTML =  `Consumo: R$ ${consumo.toFixed(2)}`
 
-    if (consumo >=30) {
+    if (consumo >30) {
         
         let valorDaConta = (valorCerveja * qtdeDeCervejas) + (valorRefrigerante * qtdeDeRefrigerantes) + (qtdeDeEspetinhos * valorEspetinho) + ingressoM
         document.getElementById("couvert").innerHTML =  "Isento de couvert"
@@ -51,7 +51,7 @@ function calculaConsumoNoBar(){
     document.getElementById("relatorio").innerHTML =  "RELATÓRIO:"
     document.getElementById("consumo").innerHTML =  `Consumo: R$ ${consumo.toFixed(2)}`
 
-    if (consumo >=30) {
+    if (consumo >30) {
         
         let valorDaConta = (valorCerveja * qtdeDeCervejas) + (valorRefrigerante * qtdeDeRefrigerantes) + (qtdeDeEspetinhos * valorEspetinho) + ingressoF
         document.getElementById("couvert").innerHTML =  "Isento de couvert"
